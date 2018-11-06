@@ -2,7 +2,7 @@
 
 const setImmediate = require('async/setImmediate')
 const NOT_STARTED_YET = require('./error-messages').NOT_STARTED_YET
-const FloodSub = require('libp2p-floodsub')
+const FloodSub = require('@jimpick/libp2p-floodsub')
 
 module.exports = (node) => {
   const floodSub = new FloodSub(node)

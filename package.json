@@ -1,6 +1,6 @@
 {
-  "name": "libp2p",
-  "version": "0.24.0-rc.2",
+  "name": "@jimpick/libp2p",
+  "version": "0.24.0-1",
   "description": "JavaScript base class for libp2p bundles",
   "leadMaintainer": "Jacob Heun <jacobheun@gmail.com>",
   "main": "src/index.js",
@@ -44,7 +44,7 @@
     "joi": "^13.6.0",
     "joi-browser": "^13.4.0",
     "libp2p-connection-manager": "~0.0.2",
-    "libp2p-floodsub": "~0.15.0",
+    "@jimpick/libp2p-floodsub": "^0.15.1-1",
     "libp2p-ping": "~0.8.0",
     "libp2p-switch": "~0.41.1",
     "libp2p-websockets": "~0.12.0",
